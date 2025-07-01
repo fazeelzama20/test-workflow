@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+}
+
+.App-header h1 {
+  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.App-header p {
+  margin-bottom: 40px;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+.counter-section {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  margin: 30px 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+.counter-section h2 {
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
+
+.counter-section p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.counter-button {
+  background: #4CAF50;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 8px;
+  cursor: pointer;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.counter-button:hover {
+  background: #45a049;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.counter-button.reset {
+  background: #f44336;
+}
+
+.counter-button.reset:hover {
+  background: #da190b;
+}
+
+.links {
+  margin-top: 40px;
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.App-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .App-header h1 {
+    font-size: 2rem;
+  }
+  
+  .App-header p {
+    font-size: 1rem;
+  }
+  
+  .counter-section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+  .counter-button {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+} 
